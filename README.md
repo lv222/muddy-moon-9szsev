@@ -6,7 +6,7 @@ This project is a web application built using React that allows users to search 
 
 Features
 
-Transaction Search: Easily search for specific transactions using keywords or transaction details.
+Transaction Search: Easily search for specific transactions using keywords.
 
 Filter by Type: Filter transactions based on their type (Private or Business).
 
