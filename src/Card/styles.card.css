@@ -1,0 +1,27 @@
+.card {
+  margin: 2em 0.5em;
+  padding: 2em 6em;
+  background-color: lavender;
+  border-radius: 10px;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  box-sizing: border-box;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 4.2em;
+}
+
+@media only screen and (max-width: 1025px) {
+  .card {
+    margin: 0.5em;
+  }
+  .card__btn {
+    margin: 0;
+  }
+}
